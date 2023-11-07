@@ -1,0 +1,27 @@
+.bgs {
+    background-image: url("./assert/home.jpg");
+    width:100%;
+    min-height: 100vh;
+    height:100%;
+    background-size: cover;  
+}
+
+.d {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color:white;
+}
+.head {
+    padding: 10px 20px;
+    font-size: 30px;
+    font-weight: 900;
+    box-shadow:1px 1px 20px 10px crimson;
+    text-shadow: 2px 5px 1px black;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+.btn {
+    margin-left:35%;
+}
