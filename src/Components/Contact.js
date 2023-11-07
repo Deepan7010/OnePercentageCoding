@@ -16,16 +16,15 @@ const Contact = () => {
           </Col>
         </Row>
         <Row>
-          {/* <Col lg="2" xl="3"></Col> */}
           <Col className="mt-4 text-center">
-            <p className="h5"><i class="bi bi-geo-alt"></i> No.44
+            <p className="h5"><i className="bi bi-geo-alt"></i> No.44
             1st Floor,<br />
              Mahalakshmi Nagar,<br />
               OMR Sholingnallur, <br />
               TamilNadu-600001 <br />
             </p>
-            <p className="h5"><i class="bi bi-phone"></i> +91 987654321</p>
-            <p className="h5"><i class="bi bi-envelope"></i> hr@onepercentagecoding</p>
+            <p className="h5"><i className="bi bi-phone"></i> +91 987654321</p>
+            <p className="h5"><i className="bi bi-envelope"></i> hr@onepercentagecoding</p>
           </Col>
         </Row>
       </Container>

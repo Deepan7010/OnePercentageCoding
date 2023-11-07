@@ -13,39 +13,45 @@ const Navbars = () => {
     <nav>
       <Navbar expand="lg" className="bg-secondary">
         <Container>
-          <Navbar.Brand>
-            <Link to="/">
-              <img
-                src={require("../assert/logo.jpg")}
-                alt="hi"
-                width="50"
-                height="50"
-              />
-            </Link>
-            <Navbar.Brand />
+          <Navbar.Brand as={Link} to="/" className="text-light">
+            <img
+              src={require("../assert/logo.jpg")}
+              alt="hi"
+              width="50"
+              height="50"
+            />
+            <span className="ms-1 h4 fw-bold">Coding</span>
           </Navbar.Brand>
           <Navbar.Toggle className="bg-light" />
           <Navbar.Collapse className="justify-content-end" id="nav">
             <Nav>
-              <Nav.Link>
-                <Link className="text-decoration-none text-light active" to="/">
-                  Home
-                </Link>
+              <Nav.Link
+                as={Link}
+                className="text-decoration-none text-light active"
+                to="/"
+              >
+                Home
               </Nav.Link>
-              <Nav.Link>
-                <Link className="text-decoration-none text-light " to="/Course">
-                  Course
-                </Link>{" "}
+              <Nav.Link
+                as={Link}
+                className="text-decoration-none text-light"
+                to="/Course"
+              >
+                Course
               </Nav.Link>
-              <Nav.Link>
-                <Link className="text-decoration-none text-light " to="/Service">
-                  Services
-                </Link>{" "}
+              <Nav.Link
+                as={Link}
+                className="text-decoration-none text-light "
+                to="/Service"
+              >
+                Services
               </Nav.Link>
-              <Nav.Link>
-                <Link className="text-decoration-none text-light " to="/Contact">
-                  Contact
-                </Link>
+              <Nav.Link
+                as={Link}
+                className="text-decoration-none text-light "
+                to="/Contact"
+              >
+                Contact
               </Nav.Link>
             </Nav>
           </Navbar.Collapse>
